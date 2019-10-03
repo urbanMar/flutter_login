@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
           if (state is AuthenticationUnauthenticated) {
             return LoginScreen(userRepository: userRepository);
           }
-          
+
             return LoadingIndicator();
 
         },
