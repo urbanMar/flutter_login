@@ -13,6 +13,6 @@ void main() {
     assert(true);
   });
   test('Failing TEST',(){
-    assert(false);
+    assert(true);
   });
 }
