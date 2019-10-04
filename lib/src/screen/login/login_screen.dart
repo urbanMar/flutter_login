@@ -17,9 +17,20 @@ class LoginScreen extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
+
+    if(context != null){
+      print('asd');
+    }
+
+    try{
+
+    } catch(e) {
+      print('dd: $e');
+    }
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
+        title: const Text('Login'),
       ),
       body: BlocProvider(
         builder: (context) {
